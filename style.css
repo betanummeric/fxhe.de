@@ -1,0 +1,8 @@
+.pgp-key-link {
+  display: inline-block;
+  text-align: left;
+  background: ghostwhite;
+  padding: .5em .7em;
+  text-decoration: none;
+  margin-bottom: 5vh;
+}
