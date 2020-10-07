@@ -1,8 +1,68 @@
 .pgp-key-link {
-  display: inline-block;
   text-align: left;
-  background: ghostwhite;
   padding: .5em .7em;
   text-decoration: none;
   margin-bottom: 5vh;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (min-width: 100em) {
+  .box-container {
+    flex-direction: row;
+  }
+}
+
+.work {
+  background: ghostwhite;
+  padding: .5em .7em;
+  max-width: 50em;
+  min-width: 30em;
+  margin: 0 3em 3vh 3em;
+  flex: auto;
+}
+
+.abstract {
+  text-align: justify;
+  padding: 0 2em;
+  line-height: 1.25em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.work a {
+  padding: .3em;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  background: ghostwhite;
+  padding: 1em;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.fingerprint {
+  display: inline;
 }
